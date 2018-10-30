@@ -1,0 +1,46 @@
+{% load staticfiles %}
+
+<html>
+<head>
+    <title>My blogs</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"
+
+
+
+    <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="{% static 'Profiles/style.css' %}">
+
+    <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div class="page-header">
+    <a href="{% url 'Profiles:addpost' %}" class="top-menu">
+                         <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>&nbsp;Add Post
+                     </a>
+    <h1><a href="{% url 'Profiles:postlist' %}">Your Own Blog</a></h1>
+     <a href="{% url 'Profiles:login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
+
+
+
+</div>
+<div class="content container">
+    <div class="row">
+        <div class="col-md-8">
+            {%  block content %}
+            {% endblock %}
+        </div>
+    </div>
+</div>
+</body>
+</html>
