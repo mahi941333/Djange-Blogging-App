@@ -9,4 +9,5 @@ The admin manages the posts,can delete, edit and publish posts.
 ![2018-10-30 10](https://user-images.githubusercontent.com/21220767/47710913-fa0a9e00-dc59-11e8-9c77-9c2267b5aa5c.png)
 ![2018-10-30 11](https://user-images.githubusercontent.com/21220767/47710920-fd9e2500-dc59-11e8-9d35-b9a35ceaadc9.png)
 After getting published,posts have their pushed time and date and there is no more option or publish.
-
+![2018-10-30 12](https://user-images.githubusercontent.com/21220767/47711142-8321d500-dc5a-11e8-9296-c1d61ea7812f.png)
+![2018-10-30 13](https://user-images.githubusercontent.com/21220767/47711169-946ae180-dc5a-11e8-9e15-55c2bd1cb6be.png)
