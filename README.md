@@ -1,2 +1,2 @@
 ﻿# Djange-Blogging-App
- The users can write and publish blogs.
+![2018-10-30 4](https://user-images.githubusercontent.com/21220767/47709278-e826fc00-dc55-11e8-90a8-dff98a2a4957.png)
