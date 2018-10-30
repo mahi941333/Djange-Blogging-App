@@ -6,5 +6,7 @@ The user can create account and then only add posts.
 The user can edit ,delete their posts.
 ![2018-10-30 7](https://user-images.githubusercontent.com/21220767/47710281-64224380-dc58-11e8-8ac7-a82ae2c0b679.png)
 The admin manages the posts,can delete, edit and publish posts.
+![2018-10-30 10](https://user-images.githubusercontent.com/21220767/47710913-fa0a9e00-dc59-11e8-9c77-9c2267b5aa5c.png)
+![2018-10-30 11](https://user-images.githubusercontent.com/21220767/47710920-fd9e2500-dc59-11e8-9d35-b9a35ceaadc9.png)
 
 
